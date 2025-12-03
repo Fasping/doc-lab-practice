@@ -46,7 +46,7 @@ export const DocumentProcessingCard: React.FC = () => {
     };
 
     return (
-        <Card className="w-full max-w-2xl mx-auto mt-8">
+        <Card className="w-full h-full">
             <div className="space-y-6">
                 <div className="text-center space-y-2">
                     <H3>Document Analysis</H3>
