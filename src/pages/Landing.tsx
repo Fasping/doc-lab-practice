@@ -2,11 +2,12 @@ import React from 'react';
 import { PageWrapper } from '../components/ui/PageWrapper';
 import { Card } from '../components/ui/Card';
 import { H1, P } from '../components/ui/Typography';
+import { DocumentProcessingCard } from '../components/ui/DocumentProcessingCard';
 
 export const Landing: React.FC = () => {
     return (
         <PageWrapper className="bg-gradient-to-br from-teal-400 via-emerald-500 to-green-600 items-center justify-center p-6">
-            <div className="max-w-3xl w-full">
+            <div className="max-w-3xl w-full space-y-8">
                 <Card className="bg-white/95 backdrop-blur-sm space-y-6 !p-12">
                     <div className="text-center space-y-4">
                         <H1>Doc Lab Practice</H1>
@@ -23,6 +24,8 @@ export const Landing: React.FC = () => {
                         </P>
                     </div>
                 </Card>
+
+                <DocumentProcessingCard />
             </div>
         </PageWrapper>
     );
